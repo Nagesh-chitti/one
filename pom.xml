@@ -33,7 +33,7 @@
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://15.207.121.236:8081/repository/nxrepo02/</url>
+		    <url>http://3.110.112.193:8081/repository/nxrepo02/</url>
 		</repository>
   	</distributionManagement>
 	
