@@ -826,8 +826,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Winter Collection in 2025-26 Version-9</h1>
-            <h1>Hot deals..</h1>         
+            <h1>Winter Collection in 2025-26 Version-2</h1>         
             <p>Discover the latest trends in fashion, technology and accessories with up to 50% off selected items</p>
             <div class="hero-buttons">
                 <a href="#" class="btn btn-primary">Shop Now</a>
