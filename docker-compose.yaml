@@ -1,0 +1,8 @@
+---
+version: "3"
+services:
+  shoppy:
+    container_name: shoppy-cont
+    build: .
+    ports:
+      - "2233:8080"
