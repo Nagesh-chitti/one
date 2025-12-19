@@ -5,4 +5,16 @@ services:
     container_name: shoppy-cont
     build: .
     ports:
-      - "2233:8080"
+      - "2211:8080"
+    volumes:
+      - shoppyvolume:/shoppy  
+    network:
+      - shoppynetwork
+
+volumes:
+  shoppyvolume:
+   
+networks:
+  shoppynetwork:
+    driver: bridge
+
