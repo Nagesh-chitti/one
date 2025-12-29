@@ -2,10 +2,11 @@
 version: "3"
 services:
   shoppy:
-    container_name: shoppy-cont
-    build: .
+    image: nagesh2devops/one:nexus_image
+    deploy:
+      replicas: 2
     ports:
-      - "2211:8080"
+      - "8080:8080"
     volumes:
       - shoppyvolume:/shoppy  
     networks:
