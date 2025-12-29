@@ -9,13 +9,9 @@ services:
       - "8080:8080"
     volumes:
       - shoppyvolume:/shoppy  
-    networks:
-      - shoppynetwork
+    
 
 volumes:
   shoppyvolume:
-   
-networks:
-  shoppynetwork:
-    driver: bridge
+  
 
