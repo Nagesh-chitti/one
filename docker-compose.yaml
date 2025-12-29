@@ -2,7 +2,7 @@
 version: "3"
 services:
   shoppy:
-    image: nagesh2devops/one:nexus_image
+    image: nagesh2devops/one:shoppy_image
     deploy:
       replicas: 2
     ports:
